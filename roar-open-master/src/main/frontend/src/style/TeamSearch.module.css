@@ -1,0 +1,19 @@
+.select {
+  width: 200px;
+  color: black;
+}
+.searchResultNone {
+  height: 400px;
+  width: 100%;
+  line-height: 400px;
+  padding-left: 390px;
+  color: gray;
+}
+.pageNationAction {
+  margin: 0 0 30px 350px;
+}
+.pageNationInfo {
+  letter-spacing: 10px;
+  margin: 0 20px 0 30px;
+  color: gray;
+}

@@ -1,0 +1,126 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.header {
+  color: #4c4c4c;
+  background-color: #e6e6e6;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 12px 10px -6px rgba(0, 0, 0, 0.3);
+  border-left: 10px solid orange;
+}
+.modal {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  /*  maxHeight: 500; */
+}
+.profileTitle {
+  font-size: 24px;
+  margin-left: 30px;
+}
+.profileEdit {
+  display: flex;
+}
+.profileEdit p {
+  line-height: 40px;
+  margin-right: 10px;
+}
+.profileCreateButton {
+  height: 30px;
+  width: 30px;
+}
+
+.main {
+  background-color: #f9f9f9;
+  margin-top: 50px;
+}
+.mainHeader {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0 50px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.mainHeaderLeft {
+  margin-left: 50px;
+}
+.mainHeaderRight {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 70px;
+  border-left: 0.5px solid #cecbcb;
+}
+.teamCount {
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  font-size: 30px;
+  margin: 0 auto;
+}
+.teamCountTitle {
+  font-size: 20px;
+  color: #4c4c4c;
+}
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+}
+.userName {
+  display: block;
+  margin: 10px;
+  font-size: 30px;
+  color: #4c4c4c;
+  text-align: center;
+}
+.mainBody {
+  display: flex;
+}
+.mainContentLeft {
+  flex-grow: 1;
+}
+.mainContentRight {
+  flex-grow: 1;
+}
+.profileItem {
+  color: #4c4c4c;
+  background-color: #e6e6e6;
+  height: 30px;
+  width: 400px;
+  padding-left: 10px;
+  margin: 30px 0 20px 50px;
+  line-height: 30px;
+  box-shadow: 0 12px 10px -6px rgba(0, 0, 0, 0.3);
+  border-left: 10px solid orange;
+}
+.profileItemValue {
+  color: #717171;
+  margin: 0 0 20px 70px;
+  width: 400px;
+  white-space: pre-wrap;
+}
+/* .gallery {
+  color: #4c4c4c;
+  background-color: #e6e6e6;
+  height: 30px;
+  width: 400px;
+  margin-top: 30px;
+  line-height: 30px;
+  box-shadow: 0 12px 10px -6px rgba(0, 0, 0, 0.3);
+  border-left: 10px solid orange;
+}
+
+.galleryValue {
+} */

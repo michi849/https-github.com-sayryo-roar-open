@@ -1,0 +1,43 @@
+.container {
+  width: 260px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px 5px 0 0;
+  margin-right: 50px;
+}
+.imgContainer {
+}
+
+.teamListImg {
+  width: 260px;
+  height: 195px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+.mainContainer {
+  height: 70px;
+}
+.teamName {
+  font-size: 16px;
+  color: #4c4c4c;
+  margin: 10px;
+}
+.teamInfo {
+  display: flex;
+  justify-content: space-between;
+  color: #717171;
+  margin: 30px 10px 0 10px;
+}
+.teamMember {
+  line-height: 36px;
+  font-size: 12px;
+}
+.teamDetail {
+}
+.modal {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  /*  maxHeight: 500; */
+}

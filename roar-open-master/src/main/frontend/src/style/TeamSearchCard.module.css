@@ -1,0 +1,73 @@
+.root {
+  max-width: 900px;
+  margin: 30px;
+  height: 225px;
+  background-color: #ffffff;
+  box-shadow: 0 12px 10px -6px rgba(0, 0, 0, 0.3);
+}
+.teamPicture {
+  width: 300px;
+  object-fit: cover;
+  /* object-position: 50% 50%; */
+}
+.cardContent {
+  background-color: "#F9F9F9";
+  height: 225px;
+  padding: 20px 20px;
+}
+.cardHead {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #c9c5c5;
+  padding-bottom: 5px;
+}
+.teamNameContent {
+  color: #4c4c4c;
+  font-size: 30px;
+}
+.teamInfoContainer {
+  display: flex;
+  margin: 15px 0px;
+}
+.teamInfoBlock {
+  margin-right: 20px;
+}
+.prefectures {
+  background-color: #f7c9c9;
+  color: #4c4c4c;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.sportName {
+  background-color: #c6eaf8;
+  color: #4c4c4c;
+  padding: 5px;
+  margin-right: 5px;
+}
+.detailButton {
+  text-align: "right";
+}
+.teamConcept {
+  margin: 15px 0 0 5px;
+  height: 90px;
+  overflow: hidden;
+  color: gray;
+}
+.teamMemberContainer {
+  margin-top: 5px;
+  color: gray;
+  font-size: 13px;
+  text-align: right;
+}
+.teamMember {
+  margin-right: 5px;
+}
+.modal {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  /*  maxHeight: 500; */
+}

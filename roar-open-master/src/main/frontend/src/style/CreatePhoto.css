@@ -1,0 +1,16 @@
+.imgPrebiew {
+  width: 700px;
+}
+
+img {
+  max-width: 700px;
+  max-height: 525px;
+}
+
+.imgUploadBtn {
+  margin: 10px 0;
+}
+
+#contained-button-file {
+  display: none;
+}

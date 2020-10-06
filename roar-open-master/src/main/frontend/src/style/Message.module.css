@@ -1,0 +1,83 @@
+.MessageContainer {
+}
+.messageRight {
+  margin: 0 0 10px auto;
+}
+.messageLeft {
+  margin: 0 auto 10px 0;
+}
+.name {
+  color: #333;
+  font-size: 12px;
+  margin: 2px;
+}
+.avatar {
+  border-radius: 50%;
+  border: 0.5px solid #a8a3a3;
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+}
+.message {
+  display: flex;
+}
+.messageBox {
+  display: inline-block;
+  text-align: center;
+  margin-top: 17px;
+}
+.messageText {
+  white-space: pre-wrap;
+}
+.textLeft {
+  display: inline-block;
+  position: relative;
+  margin: 0 0 0 10px;
+  padding: 10px;
+  max-width: 250px;
+  border-radius: 12px;
+  background: #edf1ee;
+}
+
+.textLeft:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 3px;
+  left: -19px;
+  border: 8px solid transparent;
+  border-right: 18px solid #edf1ee;
+  -webkit-transform: rotate(35deg);
+  transform: rotate(35deg);
+}
+.textRight {
+  display: inline-block;
+  position: relative;
+  margin: 0 10px 0 0;
+  padding: 10px;
+  border-radius: 12px;
+  background: #9be0ec;
+  font-size: 15px;
+}
+.textRight:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: -19px;
+  border: 8px solid transparent;
+  border-left: 18px solid #9be0ec;
+  -webkit-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+}
+
+.date {
+  color: #a8a3a3;
+  font-size: 10px;
+  margin: 5px;
+}
+.dateLeft {
+  text-align: left;
+}
+.dateRight {
+  text-align: right;
+}

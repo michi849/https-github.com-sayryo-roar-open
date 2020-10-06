@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.navBar {
+  color: #4c4c4c;
+  background-color: #f5f5f5;
+  font-size: 30px;
+  height: 50px;
+  padding-left: 80px;
+  line-height: 50px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+.mainContainer {
+  display: flex;
+  flex-grow: 1;
+}
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  border-right: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+.searchBar {
+  display: flex;
+  height: 40px;
+  border-bottom: 0.5px solid #4c4c4c;
+}
+.listSearchWord {
+  flex-grow: 1;
+  display: inline-block;
+  border: 1px solid #4c4c4c;
+  border-radius: 10px;
+  height: 30px;
+  margin: 5px 5px 0 5px;
+}
+.listSearchWord:focus {
+  outline: 0;
+}
+.listButton {
+  width: 30px;
+}
+.searchIcon {
+  width: 15px;
+}
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.roomName {
+  display: inline-block;
+  flex-grow: 1;
+  text-align: center;
+  line-height: 40px;
+}
+.messageSearchWord {
+  display: inline-block;
+  width: 300px;
+  border: 1px solid #4c4c4c;
+  border-radius: 10px;
+  height: 30px;
+  margin: 5px 5px 0 5px;
+}
+.messageSearchWord:focus {
+  outline: 0;
+}
+.messageArea {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 0;
+  overflow-y: scroll;
+  padding: 20px;
+}
+.messageActionArea {
+  display: flex;
+  margin: 0 10px 20px 10px;
+}
+.submitText {
+  flex-grow: 1;
+  resize: none;
+  color: #4c4c4c;
+  border: 1px solid #4c4c4c;
+  /* デフォルトのスタイルを無効化 */
+  /* -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; */
+}
+.submitText:focus {
+  outline: 0;
+}

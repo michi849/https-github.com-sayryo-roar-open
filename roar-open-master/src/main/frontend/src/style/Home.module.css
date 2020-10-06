@@ -1,0 +1,52 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+}
+.homeHeader {
+  color: #4c4c4c;
+  background-color: #f9dfd5;
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  padding-left: 80px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 12px 10px -6px rgba(0, 0, 0, 0.3);
+}
+.topContainer {
+  display: flex;
+  margin-top: 30px;
+}
+.avatarContainer {
+  flex-grow: 1;
+}
+.teamListContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+.teamListTitle {
+  color: #4c4c4c;
+  background-color: #e6e6e6;
+  width: 100%;
+  height: 40px;
+  font-size: 24px;
+  padding-left: 30px;
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 12px 10px -6px rgba(0, 0, 0, 0.3);
+  border-left: 10px solid orange;
+}
+.teamListMain {
+  height: 400px;
+}
+.teamList {
+  width: 950px;
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  overflow-x: scroll;
+}
